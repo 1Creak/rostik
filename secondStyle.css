@@ -1,0 +1,72 @@
+*{
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.span{
+    font-weight: 700;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.img{
+    width: 617px;
+    height: 923px;
+    display: block;
+    float: left;   
+}
+header{
+    align-items: flex-start;
+    display: flex;
+}
+.adress {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.contacts {
+    color: black;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-left: 200px;
+}
+.mainh1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    color: #000;
+    margin-top: 130px;
+    width: 637px;
+    margin-left: 25px;
+}
+.text {
+    align-items: start;
+    display: block;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 23px;
+    width: 507px;
+    margin-left: 25px;
+}
+.imgs {
+    border-radius: 33px;
+    width: 157px;
+    height: 136px;
+    margin-left: 250px;
+    margin-top: 30px;
+    display: flex;
+}
+.imgs-select {
+    border-radius: 33px;
+    width: 157px;
+    height: 136px;
+    margin-left: 250px;
+    margin-top: 50px;
+    display: flex;
+}
+.header-logo {
+    margin-left: 25px;
+}
