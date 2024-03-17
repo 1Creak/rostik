@@ -1,65 +1,67 @@
 *{
-    font-family: 'Karla', sans-serif;
     margin: 0;
-    padding: 0;
-    text-decoration: none;
+    padding:0;
 }
-h1{
-    font-weight: 100;
-}
-.span{
-    font-weight: 700;
-}
-
-.logo{
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-}
-.img{
-    width: 617px;
-    height: 923px;
-    display: block;
-    float: left;   
+header img{
+    width: 100px;
 }
 header{
-    align-items: flex-start;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.adress {
-    position: fixed;
-    bottom: 0;
-    right: 0;
+header a{
+    color: yellow;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
 }
-.contacts {
-    color: black;
-    font-weight: lighter;
-    font-size: 15px;
-    margin-left: 200px;
+.products{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.mainh1 {
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 100%;
-    color: #000;
-    margin-left: 20px;
-    width: 718px;
+.product img{
+    width: 250px;
 }
-.button {
-    border: solid 1px #3088D2;
-    background-color: #3088D2;
-    border-radius: 44px;
-    width: 358px;
-    height: 90px;
-    font-weight: 700;
-    font-size: 50px;
-    padding: 5px 10px;
-    color: white;
-    margin-left: 20px;
+.product{
+    text-align: center;
+    border: 5px double black;
+    width: 250px;
+    padding: 25px;
 }
-h1{
-    margin-bottom: 143px;
+footer{
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.logo-text {
-    margin-left: 25px;
+footer img{
+    width: 100px;
+}
+footer a{
+    background-color: yellow;
+    text-decoration: none;
+    color:red;
+    padding: 10px;
+    border-radius: 10px;
+    }
+.MENU{
+    text-align: center;
+    padding: 10px;
+}
+main{
+    padding: 20px 0;
+    
+}
+main a{
+    text-decoration: none;
+}
+footer p{
+    text-align: center;
+    background-color: red;
+    color:yellow;
 }
