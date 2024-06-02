@@ -1,67 +1,102 @@
 *{
-    margin: 0;
-    padding:0;
-}
-header img{
-    width: 100px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  box-shadow:0px 5px 60px 0 black;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  /*color:yellow;*/
+  /*background-color:red;*/
+  padding:10px;
+  border-radius:10px;
+}
+main img{
+  width:100%
+}
+.mc{
+  width:30%
+}
+
+footer img{
+  width:3%
+}
+main p{
+  /* background-color: brown; */
+}
+header img{
+  width:80px ;
+  height:80px ;
+}
+header{
+ background-color: lightskyblue;
 }
 header a{
-    color: yellow;
-    background-color: red;
-    border-radius: 10px;
-    padding: 10px;
-    text-decoration: none;
-}
-.products{
-    display: flex;
-    gap: 50px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.product img{
-    width: 250px;
-}
-.product{
-    text-align: center;
-    border: 5px double black;
-    width: 250px;
-    padding: 25px;
+   color: white;
 }
 footer{
-    background-color: red;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  background-color: darkslategray;
+}
+footer nav {
+  color: white;
+}
+footer nav a{
+  color: white;
+}
+/*  */
+.block-image-text{
+  display: flex;
+  color: black;
+}
+.block-image-text-info{
+  color: black;
+}
+
+.block-image-text{
+  width: 50%;
+  text-align: center;
+}
+.block-image-text{
+  margin: 10px 0;
+  justify-content: space-around;
+}
+.block-image-text{
+  width: 100%;
+  align-items: center;
+}
+.block-image-text img{
+  width: 50%;
+  min-width: 50%;
+}
+.block-image-text-info img{
+  width:50px;
+}
+.block-image-text-info-info2{
+  width:115px;
+}
+.social{
+  display:flex;
+  justify-content: center;
+}
+footer{
+  padding: 20px;
 }
 footer img{
-    width: 100px;
+  width: 40px;
 }
-footer a{
-    background-color: yellow;
-    text-decoration: none;
-    color:red;
-    padding: 10px;
-    border-radius: 10px;
-    }
-.MENU{
-    text-align: center;
-    padding: 10px;
+footer{
+  color: white;
+  text-align: center;
 }
-main{
-    padding: 20px 0;
-    
-}
-main a{
-    text-decoration: none;
-}
-footer p{
-    text-align: center;
-    background-color: red;
-    color:yellow;
+.block-image-text{
+  padding: 15px 0;
 }
